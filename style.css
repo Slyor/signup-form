@@ -1,0 +1,100 @@
+@font-face{
+  font-family: "kalimero";
+  src: url(Norse-Bold.otf)
+}
+
+body{
+  font-family: kalimero, Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+
+/* div{
+  outline: solid black
+} */
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.left-side{
+  width: 33vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.right-side{
+  width: 66vw;
+  height: 100vh;
+}
+
+.intro{
+  height: 20vh;
+}
+.login{
+  height: 35vh;
+}
+.signup{
+  height: 40vh;
+}
+img{
+  object-fit: cover;
+  height: 100vh;
+}
+.desc{
+  height: fit-content;
+}
+
+.login-form{
+  height: 25vh;
+  margin: 3rem;
+}
+
+.first-column, .second-column{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+.login-form-inside{
+  display: flex;
+  height: 100%;
+}
+form{
+  height: 100%;
+}
+
+.create-account{
+  border: none;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  background-color: rgb(51, 121, 60);
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+.signup{
+  padding: 3rem 3rem;
+}
+
+.intro{
+  padding: 0rem 3rem;
+}
+.desc{
+  padding: 0rem 3rem;
+  font-style: italic;
+}
+.intro, .signup{
+  background-color: rgb(240, 240, 240);
+}
+h1, h3{
+  margin: 0px;
+}
+.intro{
+  display: flex;
+  flex: end;
+}
+button{
+  font-family: kalimero;
+}
